@@ -1,0 +1,16 @@
+{
+  "start_url": "https://example.com/",
+  "max_pages_crawled": 300,
+  "delay_seconds_between_requests": 0.2,
+  "request_timeout_seconds": 10,
+  "dead_link_checker": {
+    "output_file": "dead_links_report.html",
+    "ignore_urls": [
+      "blog.example.com",
+      "example.com/private"
+    ]
+  },
+  "social_preview_scraper": {
+    "output_file": "social_previews_report.html"
+  }
+}
